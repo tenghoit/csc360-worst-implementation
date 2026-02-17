@@ -1,4 +1,2 @@
 
-public interface SortingAlgorithm {
-	public Competitor[] sort(Competitor[] competitors);
-}
+public interface SortingAlgorithm {public Competitor[] sort(Competitor[] c);}

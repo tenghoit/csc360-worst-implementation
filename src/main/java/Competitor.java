@@ -1,23 +1,8 @@
 
-public class Competitor {
-	String name;
-	int score;
-	
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public int getScore() {
-		return score;
-	}
-	public void setScore(int score) {
-		this.score = score;
-	}
-	public Competitor(String name, int score) {
-		super();
-		this.name = name;
-		this.score = score;
-	}
+public class Competitor {String n;int s;	
+public String gN() {return n;} 
+public void sN(String n) {this.n = n;}
+public int gS() {return s;}
+public void sS(int s) {this.s = s;}
+public Competitor(String n, int s) { super(); this.n = n; this.s = s;}
 }
