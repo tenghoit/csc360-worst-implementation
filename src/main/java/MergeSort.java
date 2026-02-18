@@ -1,8 +1,10 @@
-import
-
 public class MergeSort implements SortingAlgorithm {
 
-    @Override
+    public MergeSort() {
+		super();
+	}
+
+	@Override
     public Competitor[] sort(Competitor[] c) {
         if (c.length <= 1) {
             return c;
